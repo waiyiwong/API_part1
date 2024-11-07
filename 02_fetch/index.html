@@ -14,7 +14,7 @@
         fetch("https://ci-swapi.herokuapp.com/api/")
             .then(response => response.text()) // or .json()
             .then(data => {
-                document.getElementById("content").innerText = data;
+                document.getElementById("content").innerText = data; //.people to retrieve people info
             });
     </script>
 </body>
